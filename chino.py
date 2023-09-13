@@ -17,4 +17,5 @@ def imageToData(filename):
 def openfile():
     fpath = fd.askopenfilename()
     if fpath:
-        
+        #画像ファイルを数値リストに変換する
+        data = imageToData(fpath)
