@@ -14,7 +14,7 @@ def imageToData(filename):
     imageLabel.image = dispImage
 
 #ファイルダイアログを開く
-def openfile():
+def openFile():
     fpath = fd.askopenfilename()
     if fpath:
         #画像ファイルを数値リストに変換する
