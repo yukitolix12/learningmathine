@@ -12,3 +12,9 @@ def imageToData(filename):
     dispImage = PIL.ImageTk.PhotoImage(grayImage.resize((300,300)))
     imageLabel.configure(image = dispImage)
     imageLabel.image = dispImage
+
+#ファイルダイアログを開く
+def openfile():
+    fpath = fd.askopenfilename()
+    if fpath:
+        
