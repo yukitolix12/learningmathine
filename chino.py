@@ -26,3 +26,8 @@ root.geometry("400x400")
 
 btn = tk.Button(root, text="ファイルを開く", command = openFile)
 imageLabel = tk.Label()
+
+btn.pack()
+imageLabel.pack()
+
+tk.mainloop()
