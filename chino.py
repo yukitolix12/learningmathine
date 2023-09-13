@@ -19,3 +19,7 @@ def openfile():
     if fpath:
         #画像ファイルを数値リストに変換する
         data = imageToData(fpath)
+
+#アプリのウィンドウを作る
+root = tk.Tk()
+root.geometry("400x400")
